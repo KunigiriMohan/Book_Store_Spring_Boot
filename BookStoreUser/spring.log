@@ -1,0 +1,95 @@
+2022-04-10 16:12:40.117  INFO 6572 --- [restartedMain] c.a.b.BookStoreUserApplication           : Starting BookStoreUserApplication using Java 1.8.0_202 on DESKTOP-CCOSQPA with PID 6572 (E:\CFP_Project\Book_Store_Application\BookStoreUser\target\classes started by Mohan Kunigiri in E:\CFP_Project\Book_Store_Application\BookStoreCart)
+2022-04-10 16:12:40.149  INFO 6572 --- [restartedMain] c.a.b.BookStoreUserApplication           : No active profile set, falling back to default profiles: default
+2022-04-10 16:12:40.399  INFO 6572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-10 16:12:40.399  INFO 6572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-10 16:12:42.998  INFO 6572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 16:12:43.202  INFO 6572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 187 ms. Found 1 JPA repository interfaces.
+2022-04-10 16:12:43.875  INFO 6572 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2022-04-10 16:12:43.916  INFO 6572 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2022-04-10 16:12:43.924  INFO 6572 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-04-10 16:12:43.924  INFO 6572 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-04-10 16:12:43.924  INFO 6572 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2022-04-10 16:12:43.924  INFO 6572 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2022-04-10 16:12:43.924  INFO 6572 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2022-04-10 16:12:43.924  INFO 6572 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-04-10 16:12:43.924  INFO 6572 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-04-10 16:12:43.995  INFO 6572 --- [restartedMain] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2022-04-10 16:12:44.355  INFO 6572 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2022-04-10 16:12:44.355  INFO 6572 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2022-04-10 16:12:45.170  INFO 6572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2022-04-10 16:12:45.186  INFO 6572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-10 16:12:45.186  INFO 6572 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-10 16:12:45.420  INFO 6572 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-10 16:12:45.420  INFO 6572 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5021 ms
+2022-04-10 16:12:45.892  INFO 6572 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 16:12:46.473  INFO 6572 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 16:12:46.488  INFO 6572 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2022-04-10 16:12:47.198  INFO 6572 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 16:12:47.493  INFO 6572 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-04-10 16:12:47.920  INFO 6572 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 16:12:48.186  INFO 6572 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 16:12:49.699  INFO 6572 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 16:12:49.715  INFO 6572 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 16:12:50.939  WARN 6572 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 16:12:53.902  INFO 6572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-10 16:12:53.933  INFO 6572 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-10 16:12:54.089  INFO 6572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2022-04-10 16:12:54.121  INFO 6572 --- [restartedMain] c.a.b.BookStoreUserApplication           : Started BookStoreUserApplication in 17.16 seconds (JVM running for 27.716)
+2022-04-10 16:15:40.831  INFO 6572 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 16:15:40.831  INFO 6572 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 16:15:41.222  WARN 6572 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 16:15:41.222  INFO 6572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 16:15:41.222  INFO 6572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 16:16:03.907  INFO 14076 --- [restartedMain] c.a.b.BookStoreUserApplication           : Starting BookStoreUserApplication using Java 1.8.0_202 on DESKTOP-CCOSQPA with PID 14076 (E:\CFP_Project\Book_Store_Application\BookStoreUser\target\classes started by Mohan Kunigiri in E:\CFP_Project\Book_Store_Application\BookStoreCart)
+2022-04-10 16:16:03.925  INFO 14076 --- [restartedMain] c.a.b.BookStoreUserApplication           : No active profile set, falling back to default profiles: default
+2022-04-10 16:16:04.093  INFO 14076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-10 16:16:04.093  INFO 14076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-10 16:16:06.327  INFO 14076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 16:16:06.544  INFO 14076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 175 ms. Found 1 JPA repository interfaces.
+2022-04-10 16:16:07.205  INFO 14076 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2022-04-10 16:16:07.237  INFO 14076 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2022-04-10 16:16:07.237  INFO 14076 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-04-10 16:16:07.237  INFO 14076 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2022-04-10 16:16:07.237  INFO 14076 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2022-04-10 16:16:07.237  INFO 14076 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2022-04-10 16:16:07.237  INFO 14076 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2022-04-10 16:16:07.237  INFO 14076 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-04-10 16:16:07.237  INFO 14076 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-04-10 16:16:07.337  INFO 14076 --- [restartedMain] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2022-04-10 16:16:07.617  INFO 14076 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2022-04-10 16:16:07.617  INFO 14076 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2022-04-10 16:16:08.297  INFO 14076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2022-04-10 16:16:08.313  INFO 14076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-10 16:16:08.321  INFO 14076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-10 16:16:08.508  INFO 14076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-10 16:16:08.508  INFO 14076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4415 ms
+2022-04-10 16:16:08.899  INFO 14076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 16:16:09.307  INFO 14076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 16:16:09.323  INFO 14076 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2022-04-10 16:16:09.895  INFO 14076 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 16:16:09.958  INFO 14076 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-04-10 16:16:10.176  INFO 14076 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 16:16:10.333  INFO 14076 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 16:16:11.224  INFO 14076 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 16:16:11.239  INFO 14076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 16:16:12.420  WARN 14076 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 16:16:15.378  WARN 14076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-04-10 16:16:15.410  INFO 14076 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-10 16:16:15.534  INFO 14076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2022-04-10 16:16:15.587  INFO 14076 --- [restartedMain] c.a.b.BookStoreUserApplication           : Started BookStoreUserApplication in 12.636 seconds (JVM running for 14.464)
+2022-04-10 16:16:22.319  INFO 14076 --- [http-nio-9001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-10 16:16:22.319  INFO 14076 --- [http-nio-9001-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-10 16:16:22.319  INFO 14076 --- [http-nio-9001-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-04-10 16:16:22.775  WARN 14076 --- [http-nio-9001-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.application.bookstoresuser.exception.UserNotFoundException: User Not Found]
+2022-04-10 16:18:24.403  WARN 14076 --- [http-nio-9001-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.application.bookstoresuser.exception.UserNotFoundException: User Not Found]
+2022-04-10 16:20:11.537  WARN 14076 --- [http-nio-9001-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.application.bookstoresuser.exception.UserNotFoundException: User Not Found]
+2022-04-10 16:21:40.273  WARN 14076 --- [http-nio-9001-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.application.bookstoresuser.exception.UserNotFoundException: User Not Found]
+2022-04-10 16:21:42.003  WARN 14076 --- [http-nio-9001-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.application.bookstoresuser.exception.UserNotFoundException: User Not Found]
+2022-04-10 16:21:43.258  WARN 14076 --- [http-nio-9001-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.application.bookstoresuser.exception.UserNotFoundException: User Not Found]
+2022-04-10 16:21:44.447  WARN 14076 --- [http-nio-9001-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.application.bookstoresuser.exception.UserNotFoundException: User Not Found]
+2022-04-10 16:21:45.786  WARN 14076 --- [http-nio-9001-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.application.bookstoresuser.exception.UserNotFoundException: User Not Found]
+2022-04-10 16:24:04.728  INFO 14076 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 16:24:04.728  INFO 14076 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 16:24:04.963  WARN 14076 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 16:24:04.963  INFO 14076 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 16:24:04.963  INFO 14076 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

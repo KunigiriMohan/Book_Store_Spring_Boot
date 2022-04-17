@@ -1,0 +1,7 @@
+2022-02-08 17:42:54.427  INFO 4152 --- [main] c.a.b.BookStoreMainApplicationTests      : Starting BookStoreMainApplicationTests using Java 1.8.0_202 on DESKTOP-CCOSQPA with PID 4152 (started by Mohan Kunigiri in E:\CFP_Project\Book_Store_Application\BookStoreMain)
+2022-02-08 17:42:54.427  INFO 4152 --- [main] c.a.b.BookStoreMainApplicationTests      : No active profile set, falling back to default profiles: default
+2022-02-08 17:42:54.553  INFO 4152 --- [main] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:9999
+2022-02-08 17:42:54.553  INFO 4152 --- [main] o.s.b.context.config.ConfigDataLoader    : Located environment: name=book-store-service, profiles=[default], label=null, version=b3f74a93aa217ae9cfdbbe1ed8630957640bcc6c, state=null
+2022-02-08 17:42:56.819  INFO 4152 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=50debc6c-5d04-368b-8727-5686470b87be
+2022-02-08 17:43:00.539  INFO 4152 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-08 17:43:00.679  INFO 4152 --- [main] c.a.b.BookStoreMainApplicationTests      : Started BookStoreMainApplicationTests in 13.55 seconds (JVM running for 15.665)
